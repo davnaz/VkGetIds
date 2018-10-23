@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using VkNet.Enums.Filters;
+
 namespace VkGetIds.Properties
 {
 
@@ -26,5 +28,7 @@ namespace VkGetIds.Properties
                 return defaultInstance;
             }
         }
+
+        
     }
 }

@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textBoxForID"   AcceptsReturn="True" ToolTip="Сюда закидывать ссылки из таблицы" Margin="10,10,10,64" TextWrapping="Wrap" FontFamily="Courier New"/>
+        <Button Content="Получить каноничные адреса" Margin="10,0,10,10" Click="Button_Click" Grid.ColumnSpan="2" Height="49" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="textboxOutput" AcceptsReturn="True" Grid.Column="1" Margin="10,10,10,64" TextWrapping="Wrap" AutomationProperties.HelpText="умаыукамыуам" ToolTip="Здесь будет вывод"/>
     </Grid>
 </Window>
